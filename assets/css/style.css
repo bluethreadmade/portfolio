@@ -76,9 +76,21 @@ main{
 }
 
 .contact-links-container{
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contact-links{
+    display: inline-block;
     margin: 2%;
+}
+
+.contact-links:first-child{
+    width: 100%;
+    text-align: center;
+}
+
+.child:not(:first-child){
+    flex: 1;
 }
