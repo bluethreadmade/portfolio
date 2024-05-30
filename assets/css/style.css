@@ -10,8 +10,8 @@ body{
 
 header{
     background-color: whitesmoke;
-    width: 100%;
     max-height: 100px;
+    margin: 1% 1% 0 1%;
 
     display: flex;
     flex-direction: row;
@@ -40,6 +40,11 @@ ul{
     justify-content: space-around;
     list-style-type: none;
     padding: 0;
+    padding-inline-start: 0;
+}
+
+main{
+    margin: 0 1% 1% 1%;
 }
 
 .about{
@@ -49,10 +54,31 @@ ul{
 
 .work{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    display: inline-block;
+}
+
+.project-card:first-child{
+    width: 100%;
+}
+
+.child:not(:first-child){
+    flex:1;
 }
 
 .contact{
     display: flex;
     flex-direction: column;
+}
+
+.contact-links-container{
+    justify-content: center;
+}
+
+.contact-links{
+    margin: 2%;
 }
