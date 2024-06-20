@@ -10,8 +10,8 @@
 
 </head>
 
-<body>
-    <header class="container">
+<body class="container">
+    <header >
         <nav class="navbar m-20">
             <h2>Megan McNeill</h2>
             <ul class="list-group list-group-horizontal">
@@ -23,41 +23,64 @@
         </nav>
     </header>
 
-    <main class="container text-center"> 
-        <article class="d-flex-row" id="about">
-            <h2 class="row-12" id="aboutTitle">About</h2>
+    <main> 
+        <article class="row m-5" id="about">
+            <h2 class="row-12 text-start" id="aboutTitle">About</h2>
             <img class="col-3" id="headshot" src="./assets/images/MeganMcNeill_Headshot_small.jpg" width="100px" alt="A light brown wooden floor, straight on">
-            <p class="col-9" id="about-text">I am a mechanical engineer and engineering leader who is learning to code  to chase my passion for creation.</p>              
+            <p class="col-9 text-center text-wrap d-flex align-items-center" id="about-text">I am a mechanical engineer and engineering leader who is learning to code  to chase my passion for creation.</p>              
         </article>
         
-        <div class="title">
+        <article class="col m-5">
             <h2 id="work">Work</h2>
-        </div>
-        <article class="work">
-            <figure class="project-card-1">
-                <h3>HTML, CSS Refactor</h3>
-                <a href="https://bluethreadmade.github.io/challenge-1/"><img id="wood-floor" src="./assets/images/wood-floor.jpg" height="200px" width="100%" alt="A solid blue rectangle"></a>
-            </figure>
-            <div class="project-cards">
-                <figure class="project-card">
-                    <h3>Project 1</h3>
-                    <a href=""><img id="blank-box" src="./assets/images/blank-block.PNG" height="100px" width="100%" alt="A solid blue rectangle"></a>
-                </figure>
 
-                <figure class="project-card">
-                    <h3>Project 2</h3>
-                    <a href=""><img id="blank-box" src="./assets/images/blank-block.PNG" height="100px" width="100%" alt="A solid blue rectangle"></a>
-                </figure>
+            <div class="row row-cols-1">
+                <div class="col">
+                    <div class="card">
+                        <a href="https://bluethreadmade.github.io/challenge-1/"><img id="wood-floor" src="./assets/images/wood-floor.jpg" height="200px" width="100%" alt="A solid blue rectangle"></a>
+                        <div class="card-body">
+                            <h3>HTML, CSS Refactor</h3>
+                        </div>
+                    </div>
+                </div>
 
-                <figure class="project-card">
-                    <h3>Project 3</h3>
-                    <a href=""><img id="blank-box" src="./assets/images/blank-block.PNG" height="100px" width="100%" alt="A solid blue rectangle"></a>
-                </figure>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
 
-                <figure class="project-card">
-                    <h3>Project 4</h3>
-                    <a href=""><img id="blank-box" src="./assets/images/blank-block.PNG" height="100px" width="100%" alt="A solid blue rectangle"></a>
-                </figure>
+                <div class="col">
+                    <div class="card">
+                        <a href=""><img class="card-img-top" id="blank-box" src="./assets/images/blank-block.PNG" height="100px" width="100%" alt="A solid blue rectangle"></a>
+                        <div class="card-body">
+                            <h3 class="card-title">Project 1</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a href=""><img class="card-img-top" id="blank-box" src="./assets/images/blank-block.PNG" height="100px" width="100%" alt="A solid blue rectangle"></a>
+                        <div class="card-body">
+                            <h3 class="card-title">Project 2</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a href=""><img class="card-img-top" id="blank-box" src="./assets/images/blank-block.PNG" height="100px" width="100%" alt="A solid blue rectangle"></a>
+                        <div class="card-body">
+                            <h3 class="card-title">Project 3</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a href=""><img class="card-img-top" id="blank-box" src="./assets/images/blank-block.PNG" height="100px" width="100%" alt="A solid blue rectangle"></a>
+                        <div class="card-body">
+                            <h3 class="card-title">Project 4</h3>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </article>
 
